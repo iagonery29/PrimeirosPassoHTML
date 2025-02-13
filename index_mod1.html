@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio I - Primeiros Passos com HTML</title>
+</head>
+<body>
+    <h1 id="inicio">Primeiros Passos com HTML</h1>
+    <hr />
+
+    <h2>Índice</h2>
+    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
+    <ul>
+        <li><a href="#surgimento">Surgimento da Web</a></li>
+        <li><a href="#relacao">A relação <i>clients</i> e <i>servers</i></a></li>
+        <li><a href="#tags">Tags HTML</a></li>
+        <li><a href="#refer">Links de referências</a></li>
+    </ul>
+    <hr>
+    <h2 id="surgimento">Surgimento da Web</h2>
+      <!-- <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
+       Não esqueça de colocar links para outros sites e também de formatar o texto com 
+       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
+       <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p> -->
+    <p>A <i>web</i>, ou <strong>World Wide Web</strong>, surgiu no final dos anos 1980 e início dos anos 1990, como uma forma de facilitar o compartilhamento de informações
+      entre cientistas e pesquisadores ao redor do mundo. Ela foi criada por <strong>Tim Berners-Lee</strong>, um cientista britânico da área de computação, enquanto ele
+      trabalhava no <strong><i>CERN</i></strong> (Organização Europeia para a Pesquisa Nuclear) em Genebra, Suíça.<br><br> Em 1989, Berners-Lee propôs um sistema baseado na
+      <u>tecnologia de hipertexto</u> que permitiria a qualquer pessoa acessar documentos e informações por meio de links em uma rede. Esse sistema foi projetado para ajudar
+      pesquisadores a compartilhar dados de forma mais rápida e eficiente. Em 1991, ele lançou o primeiro site da <i>web</i> e a primeira versão do <u>navegador web</u>, chamado
+      <strong>WorldWideWeb</strong> (sem espaços, bem no estilo da época).</p>
+      <a href="#inicio">Início</a>
+    <hr>
+    <h2 id="relacao">A relação <i>clients</i> e <i>servers</i></h2>
+    <p>A relação entre <i>clients</i>(clientes) e <i>servers</i>(servidores) é um conceito fundamental na arquitetura da web e das redes de computadores em geral.
+      Ela pode ser explicada assim:
+      <br><br>
+      <strong>1. Client (Cliente)</strong><br><br> O cliente é o dispositivo ou software que solicita recursos ou serviços de um servidor.
+      Pode ser qualquer coisa, desde um navegador de internet (como o Chrome, Firefox ou Safari) até um aplicativo no celular ou no computador.
+      O cliente é responsável por fazer requisições para o servidor e exibir ou processar os dados que ele recebe.
+      <br>
+      <u>Exemplo</u>: Quando você acessa um site na web, seu navegador atua como um cliente. Ele faz uma solicitação ao servidor onde o site está hospedado,
+      pedindo para que ele envie a página para ser exibida na tela.
+      <br><br>
+      <strong>2. Server (Servidor)</strong><br><br>
+      O servidor é o dispositivo ou software que fornece recursos, dados ou serviços aos clientes que fazem solicitações. Ele responde às requisições do cliente,
+      processando-as e devolvendo os resultados solicitados. Os servidores geralmente estão configurados para atender a múltiplos clientes ao mesmo tempo,
+      fornecendo serviços como hospedagem de sites, e-mail, compartilhamento de arquivos, etc.
+      <br>
+      <u>Exemplo</u>: Quando você digita uma URL no navegador (como "www.exemplo.com"), você está fazendo uma solicitação a um servidor que hospeda aquele site. O servidor,
+      então, envia de volta os arquivos necessários para renderizar a página que você vê no seu navegador.</p>
+      <strong>3. Como funciona a comunicação</strong><br>
+      <ol>
+         <li><strong>Requisição</strong>: O cliente (como o navegador web) envia uma requisição para o servidor. No caso da web, essa requisição geralmente
+         é feita usando o protocolo HTTP (HyperText Transfer Protocol), que define como os dados são transmitidos.</li>
+         <li><strong>Processamento no Servidor</strong>: O servidor recebe essa requisição e processa o pedido. Se for um site, por exemplo, ele pode buscar os
+         arquivos da página, imagens ou outros recursos no seu sistema de arquivos, ou então consultar um banco de dados, dependendo da complexidade do pedido.</li>
+         <li><strong>Resposta</strong>: Após o processamento, o servidor envia uma resposta ao cliente, que pode incluir os dados solicitados, como o código HTML
+         de uma página, imagens ou até mesmo mensagens de erro, caso haja algum problema (por exemplo, "404 - Página não encontrada").</li>
+         <li><strong>Exibição</strong>: O cliente recebe esses dados e os exibe de forma adequada para o usuário, como a página web que você vê no navegador.</li>
+      </ol>
+    <a href="#inicio">Início</a>
+    <hr>
+    <h2 id="tags">Tags HTML</h2>
+    <ul>
+      <li><strong>h1 a h6</strong>: Representam títulos de diferentes níveis (h1 é o mais importante e h6 o menos importante).</li>
+      <li><strong>p</strong>: Usada para criar um parágrafo de texto.</li>
+      <li><strong>br</strong>: Quebra de linha (sem tag de fechamento).</li>
+      <li><strong>strong</strong>: Torna o texto em negrito, indicando ênfase.</li>
+      <li><strong>i ou em</strong>: Torna o texto em itálico, indicando ênfase.</li>
+      <li><strong>a</strong>: Usada para criar links.</li>
+      <li><strong>img</strong>: Insere uma imagem.</li>
+      <li><strong>ol</strong>: Listas Ordenadas (numeradas).</li>
+      <li><strong>ul</strong>: Listas Não Ordenadas (com marcadores).</li>
+      <li><strong>li</strong>: Usada para cada item da lista (ordenada ou não ordenada).</li>
+      <li><strong>!--  --</strong>: Usada para fazer comentários, coloca-se o texto no espaço em branco.</li>
+   </ul>
+    <a href="#inicio">Início</a>
+    <hr>
+    <h2 id="refer">Links de referências</h2>
+    <!-- <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir
+    em outra aba/janela do navegador.</p> -->
+    <ul>
+        <li><a href="http://dio.me" target="_blank">DIO</a></li>
+        <li><a href="https://www.w3schools.com/" target="_blank">w3schools</a></li>
+        <li><a href="https://www.codecademy.com/" target="_blank">Codecademy</a></li>
+    </ul>
+    <br><br>
+    <a href="#inicio">Início</a>
+</body>
+</html>
